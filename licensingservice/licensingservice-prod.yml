@@ -1,5 +1,6 @@
 tracer.property: "I AM PROD"
 spring.jpa.database: "POSTGRESQL"
+example.property: "A default Property"
 spring.datasource.platform: "postgres"
 spring.jpa.show-sql: "false"
 spring.datasource.driverClassName: "org.postgresql.Driver"
