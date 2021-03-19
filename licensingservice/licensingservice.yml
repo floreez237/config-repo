@@ -9,6 +9,7 @@ spring.jpa.database-platform: "org.hibernate.dialect.H2Dialect"
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.h2.console.enabled: "true"
+management.endpoints.web.exposure.include: "refresh"
 
 #spring.jpa.database: "POSTGRESQL"
 #spring.datasource.platform: "postgres"
