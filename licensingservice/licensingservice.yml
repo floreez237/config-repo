@@ -1,5 +1,5 @@
 tracer.property: "I AM DEFAULT"
-example.property: "A default Property refresh"
+example.property: "{cipher}3c95e6b39b47429be5c2996086b400e6b331bd025b4de2bcfdf4d8208b1f2a7a73b7d0187d24ee3aa7de0d5dd2017e79"
 spring.datasource.url: "jdbc:h2:mem:testdb"
 spring.jpa.show-sql: "true"
 spring.datasource.driverClassName: "org.h2.Driver"
