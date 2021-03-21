@@ -1,0 +1,12 @@
+tracer.property: "I AM DEFAULT"
+example.property: "{cipher}a77d48fe316f1a45c8ace5ea3c4651527d2b9facb11dd676171d2350f4997136fd832f855403315036cb51e2cd55dae6"
+spring.datasource.url: "jdbc:h2:mem:testdb"
+spring.jpa.show-sql: "true"
+spring.datasource.driverClassName: "org.h2.Driver"
+spring.datasource.username: "sa"
+spring.datasource.password:
+spring.jpa.database-platform: "org.hibernate.dialect.H2Dialect"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.h2.console.enabled: "true"
+management.endpoints.web.exposure.include: "refresh"
