@@ -1,3 +1,4 @@
+server.port: 8081
 tracer.property: "I AM Dev"
 example.property: "A default Property"
 spring.jpa.database: "POSTGRESQL"
