@@ -14,17 +14,11 @@ eureka.instance.prefer-ip-address: "true"
 eureka.client.register-with-eureka: "true" #this is true by default
 eureka.client.fetch-registry: "true" #this too is true by default
 eureka.client.service-url.defaultZone: "http://localhost:8761/eureka/"
-hystrix:
-  command:
-    orgKey:
-      circuitBreaker:
-        requestVolumeThreshold: 10
-        errorThresholdPercentage: 75
-        sleepWindowInMilliseconds: 7000
-      metrics:
-        rollingStats:
-          numBuckets: 5
-          timeInMilliseconds: 15000
+hystrix.command.orgKey.circuitBreaker.requestVolumeThreshold: 10
+hystrix.command.orgKey.circuitBreaker.errorThresholdPercentage: 75
+hystrix.command.orgKey.circuitBreaker.sleepWindowInMilliseconds: 7000
+hystrix.command.orgKey.metrics.rollingStats.numBuckets: 5
+hystrix.command.orgKey.metrics.rollingStats.timeInMilliseconds: 15000
 
 #spring.jpa.database: "POSTGRESQL"
 #spring.datasource.platform: "postgres"
