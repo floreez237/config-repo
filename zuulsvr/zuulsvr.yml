@@ -1,0 +1,5 @@
+eureka.instance.prefer-ip-address: "true"
+eureka.client.register-with-eureka: "true" #this is true by default
+eureka.client.fetch-registry: "true" #this too is true by default
+eureka.client.service-url.defaultZone: "http://localhost:8761/eureka/"
+server.port: 5555
