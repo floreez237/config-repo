@@ -7,3 +7,4 @@ zuul.routes.licensingservice: /license/**
 #to ignore all automatically mapped services
 zuul.ignored-services: '*'
 zuul.prefix: /api
+server.port: 5555
