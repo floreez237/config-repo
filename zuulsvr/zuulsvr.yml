@@ -8,3 +8,4 @@ zuul.routes.licensingservice: /license/**
 zuul.ignored-services: '*'
 zuul.prefix: /api
 server.port: 5555
+management.endpoints.web.exposure.include: health, info, routes, refresh
